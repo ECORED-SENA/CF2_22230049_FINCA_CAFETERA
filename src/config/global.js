@@ -24,116 +24,32 @@ export default {
         nombreRuta: 'tema1',
         icono: 'far fa-file-alt',
         numero: '1',
-        titulo: 'Componentes',
+        titulo: 'Usos del suelo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '1.1',
-            titulo: 'Encabezados',
-            hash: 'encabezados',
+            titulo: 'Normatividad aplicable',
+            hash: 't_1_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.2',
-            titulo: 'Párrafos',
-            hash: 'parrafos',
+            titulo: 'El ordenamiento territorial',
+            hash: 't_1_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.3',
-            titulo: 'Botones',
-            hash: 'botones',
+            titulo: 'Conflictos de uso del suelo',
+            hash: 't_1_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.5',
-            titulo: 'Tablas',
-            hash: 'tablas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.6',
-            titulo: 'Imagen',
-            hash: 'imagen',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.7',
-            titulo: 'Imagen Infográfica',
-            hash: 'imagen_infografica',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.8',
-            titulo: 'Video',
-            hash: 'video',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.9',
-            titulo: 'Bloques de texto destacado',
-            hash: 'texto_destacado',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.10',
-            titulo: 'Sliders',
-            hash: 'sliders',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.11',
-            titulo: 'Acordiones',
-            hash: 'acordiones',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.12',
-            titulo: 'Pestañas o Tabs',
-            hash: 'tabs',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.13',
-            titulo: 'Líneas de tiempo',
-            hash: 'lineas_tiempo',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.14',
-            titulo: 'Pasos',
-            hash: 'pasos',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.15',
-            titulo: 'Llamados a la acción',
-            hash: 'llamados_accion',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.16',
-            titulo: 'Tarjetas',
-            hash: 'tarjetas',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.17',
-            titulo: 'Tarjetas con número',
-            hash: 'tarjeta_numero',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.18',
-            titulo: 'Modal',
-            hash: 'modal',
+            titulo: 'Variables en el uso del suelo',
+            hash: 't_1_4',
           },
         ],
       },
@@ -141,44 +57,32 @@ export default {
         nombreRuta: 'tema2',
         icono: 'far fa-file-alt',
         numero: '2',
-        titulo: 'Producción Audiovisual',
+        titulo: 'Diagnóstico ambiental y productivo',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '2.1',
-            titulo: 'Infografía Animada',
+            titulo: 'Herramientas de diagnóstico',
             hash: 't_2_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
+            titulo: 'Metodologías empleadas',
             hash: 't_2_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.3',
-            titulo: 'Motion + Presentador',
+            titulo: 'Generación de informes',
             hash: 't_2_3',
           },
           {
             icono: 'far fa-file-alt',
             numero: '2.4',
-            titulo: 'Animación 2D',
+            titulo: 'Metodologías de interpretación',
             hash: 't_2_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.5',
-            titulo: 'Video interactivo',
-            hash: 't_2_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.6',
-            titulo: 'Infografías',
-            hash: 't_2_6',
           },
         ],
       },
@@ -186,45 +90,26 @@ export default {
         nombreRuta: 'tema3',
         icono: 'far fa-file-alt',
         numero: '3',
-        titulo: 'Fundamentación Textil',
+        titulo: 'Manejo de problemáticas ambientales',
         desarrolloContenidos: true,
         subMenu: [
           {
             icono: 'far fa-file-alt',
             numero: '3.1',
-            titulo:
-              'Clasificación y conceptualización de las fibras naturales, químicas (artificiales y sintéticas).',
+            titulo: 'Priorización de necesidades',
             hash: 't_3_1',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.2',
-            titulo: 'Identificación fibras por combustión',
+            titulo: 'Identificación de alternativas de solución	',
             hash: 't_3_2',
           },
           {
             icono: 'far fa-file-alt',
             numero: '3.3',
-            titulo: 'Clasificación de los hilos',
+            titulo: 'Planeación',
             hash: 't_3_3',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.4',
-            titulo: 'Clasificación de tejidos',
-            hash: 't_3_4',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.5',
-            titulo: 'Caracterización de los tejidos',
-            hash: 't_3_5',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '3.6',
-            titulo: 'Procesos textiles',
-            hash: 't_3_6',
           },
         ],
       },
@@ -232,15 +117,15 @@ export default {
     subMenu: [
       {
         icono: 'fas fa-sitemap',
-        titulo: 'Sintesis',
+        titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
-      {
-        nombreRuta: 'actividad',
-        icono: 'far fa-question-circle',
-        titulo: 'Actividad didáctica',
-        desarrolloContenidos: true,
-      },
+      // {
+      //   nombreRuta: 'actividad',
+      //   icono: 'far fa-question-circle',
+      //   titulo: 'Actividad didáctica',
+      //   desarrolloContenidos: true,
+      // },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -271,139 +156,123 @@ export default {
   referencias: [
     {
       referencia:
-        'Zlackman, C. (2012). 100 años de moda. Sistema de Bibliotecas SENA:',
+        'Canal David Felibert Ingeniero Ambiental. (2020). Valoración de servicios ambientales ¿Valoración Económica del Ambiente? [Video]. YouTube.',
+      link: 'https://www.youtube.com/watch?v=OrMfQ1eqJrs',
+    },
+    {
+      referencia:
+        'Congreso de Colombia. (1997). Ley 388 de 1997. Por la cual se modifica la Ley 9 de 1989, y la Ley 2 de 1991 y se dictan otras disposiciones. Julio 18 de 1997. DO. N° 43.091. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/primo-explore/fulldisplay?docid=sena_aleph000060086&vid=SENA&search_scope=sena_completo&tab=sena_completo&lang=es_ES&context=L',
+        'https://www.funcionpublica.gov.co/eva/gestornormativo/norma.php?i=339',
     },
     {
       referencia:
-        'Castellanos, O., Fumeque A., y Ramirez D. (2011). Análisis de tendencias: de la información hacia la innovación. Universidad Nacional de Colombia. Sistema de Bibliotecas SENA:',
+        'Corporación Autónoma Regional del Valle del Cauca. (2021). Instructivo: generación de las capas temáticas de uso potencial - zonificación forestal y conflicto por uso del suelo. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000007947',
+        'https://www.cvc.gov.co/sites/default/files/2021-08/IN.0130.51%20Generacion%20capas%20tematicas%20uso%20potencial%20-%20zonificacion%20forestal%20y%20conflicto%20por%20uso%20del%20suelo%2C%20V02.pdf',
     },
     {
       referencia:
-        '<em>Harpersbazaar</em>. (2019). La ropa que eliges afecta a tu estado de ánimo y cerebro, según expertos. En arpersbazaar.mx.',
-    },
-    {
-      referencia:
-        'Lafuente M., Navarro J., y Navarro J. (2005). Ilustración de moda. Sistema de Bibliotecas SENA',
+        'Federación Nacional de Cafeteros de Colombia. (2004). Guía ambiental para el cultivo del café. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000025549',
+        'https://redjusticiaambientalcolombia.files.wordpress.com/2012/09/guia-ambiental-para-el-subsector-cafetero.pdf',
     },
     {
       referencia:
-        'Laver, J.,  Albizua, H., y Fortea, B. (1990). Breve historia del traje y la moda. Sistema de Bibliotecas SENA.',
-    },
-    {
-      referencia:
-        'Navarro, J.,  y Lafuente, M. (2010). Ilustración de moda: dibujo plano. Sistema de Bibliotecas SENA:',
+        'Fundación para la Educación Superior y el Desarrollo – Fedesarrollo. (2019). Uso potencial y efectivo de la tierra agrícola en Colombia: resultados del censo nacional agropecuario. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/q6j6k0/sena_aleph000023241',
+        'https://www.repository.fedesarrollo.org.co/bitstream/handle/11445/4079/Repor_Septiembre_2019_Delgado.pdf?sequence=1&isAllowed=y',
     },
     {
       referencia:
-        'Áciedad Americana de Ensayos y Materiales (ASTM). (2003). Textiles. Editorial Staff. [Book]. Sistema de Bibliotecas SENA.',
-      link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000051551',
+        'Gerencia Ambiental de Proyectos Ltda. (2017). Componente ambiental – documento técnico de soporte plan parcial no. 7 – “Ciudad Lagos de -Torca”.',
+      link: 'http://www.sdp.gov.co/sites/default/files/7.estu_amb_cap_6.pdf',
     },
     {
       referencia:
-        'Szkutnicka, B., Cuenca, C., Koyama, A. (2010). El dibujo técnico de moda paso a paso. Sistema de Bibliotecas SENA.',
+        'Instituto Geográfico Agustín Codazzi – Corporación Colombiana de Investigación Agropecuaria. (2002). Zonificación de los conflictos de uso de las tierras en el país. ',
       link:
-        'https://sena-primo.hosted.exlibrisgroup.com/permalink/f/1j5choe/sena_aleph000057728',
+        'https://es.slideshare.net/jamoga06/20120730-zon-confusotierracap4-usoconflic',
+    },
+    {
+      referencia:
+        'Sánchez, M., y Holguín, M. (2014). La institucionalidad del suelo en Colombia: ¿utopía o realidad? Ambiente y Desarrollo, 18(34), 57-76.',
+      link:
+        'https://revistas.javeriana.edu.co/index.php/ambienteydesarrollo/article/view/9741',
     },
   ],
   glosario: [
     {
-      termino: 'MoodBoard',
+      termino: 'Causalidad',
       significado:
-        'su traducción literal es mapa de inspiración y aunque su uso está muy asociado al ámbito de la decoración de interiores o la moda, <br/>realmente se utiliza en entornos creativos muy diversos, desde el diseño de productos o servicios al audiovisual o el diseño gráfico.',
+        'indica el grado en que una variable tiene la capacidad para afectar a otra. ',
     },
     {
-      termino: '<em>Suftware</em>',
+      termino: 'Impactos residuales',
       significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'impactos cuyos efectos persistirán en el ambiente, luego de aplicadas las medidas de corrección, prevención, minimización y mitigación.',
     },
     {
-      termino: 'Pirognóstico',
+      termino: 'Impactos acumulativos',
       significado:
-        'ensayo sin componentes reactivos, quiere decir, reconocimiento de los componentes, mediante la aplicación adecuada del fuego.',
+        'son aquellos que resultan de efectos sucesivos, incrementales, y/o combinados de proyectos, obras o actividades cuando se suman a otros impactos existentes, planeados y/o futuros razonablemente anticipados. Para efectos prácticos, la identificación, análisis y manejo de impactos acumulativos se debe orientar a aquellos que sean reconocidos como significativos, que se manifiestan en diversas escalas espacio-temporales.',
     },
     {
-      termino: '<em>Áectores</em>',
+      termino: 'Medidas de corrección',
       significado:
-        'en software de diseño, son líneas que se crean y permiten, expandir, modificar, al tamaño que sea sin pixelarse porque se unen por coordenadas matemáticas del programa y no se generan por números fijos.',
+        'las acciones dirigidas a recuperar, restaurar o reparar las condiciones del medio ambiente afectado por el proyecto, obra o actividad (Autoridad Nacional de Licencias Ambientales, 2021).',
     },
     {
-      termino: 'Moda',
+      termino: 'Medidas de mitigación',
       significado:
-        'hábito repetitivo que identifica a una persona, una especie de presión social, que debe consumir, utilizar o hacer.',
+        'las acciones dirigidas a minimizar los impactos y efectos negativos de un proyecto, obra o actividad sobre el medio ambiente (Autoridad Nacional de Licencias Ambientales, 2021). ',
     },
     {
-      termino: 'Diseña',
+      termino: 'Medidas de prevención',
       significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'DIseño',
-      significado:
-        'actividad creativa orientada a soluciones idóneas a ciertas problemáticas.',
-    },
-    {
-      termino: 'Tipología',
-      significado:
-        'estudio de los tipos o modelos que se usan para clasificar en diversas ciencias o disciplinas.',
-    },
-    {
-      termino: 'Bidimensional',
-      significado:
-        'que se representa según su altura y su anchura y no su profundidad.',
-    },
-    {
-      termino: 'Interés Inferior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interseccionalidad',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
-    },
-    {
-      termino: 'Interés superior del menor',
-      significado:
-        'término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema informático.',
+        'las acciones encaminadas a evitar los impactos y efectos negativos que pueda generar un proyecto, obra o actividad sobre el medio ambiente (Autoridad Nacional de Licencias Ambientales, 2021)',
     },
   ],
   complementario: [
     {
       texto:
-        'BIC., (2015). “2 minutos para entender el desarrollo sostenible – Spanish”',
-      tipo: 'Video',
-      link: 'https://www.google.com/',
+        'Canal David Felibert Ingeniero Ambiental. (2020). Valoración de servicios ambientales ¿Valoración económica del ambiente? [Video]. YouTube.',
+      tipo: 'Video de YouTube',
+      link: 'https://www.youtube.com/watch?v=OrMfQ1eqJrs',
     },
     {
       texto:
-        'Arnold, M. y Osorio, F., (1998). Introducción a los conceptos básicos de la Teoría general de sistemas. Cinta moebio 3: 40-49',
-      tipo: 'Página web',
-      descarga: '/downloads/prueba.pdf',
+        'Canal Marketing 2.0. (2019). Cómo hacer encuestas de investigación / partes de la encuesta. [Video]. YouTube. ',
+      tipo: 'Video de YouTube',
+      link: 'https://www.youtube.com/watch?v=l3GrfOGG8hA',
     },
     {
       texto:
-        'Balboa, C. y Dominguez, M. (2014). Economía circular como marco para el ecodiseño: el modelo ECO-3. Informador Técnico (Colombia) Volumen 78, No. 1. Pág. 52-90.',
-      tipo: 'Artículo científico',
-      link: 'https://www.google.com/',
+        'ISO Sistemas de Gestión (2020). ISO 14001:2015 Matriz de aspectos ambientales significativos, ¿cómo hacerla? [Video]. YouTube. ',
+      tipo: 'Video de YouTube',
+      link: 'https://www.youtube.com/watch?v=82ww7BgbKSI',
     },
     {
-      texto: 'Economía de Rosquilla. (s.f.).',
-      tipo: 'Página web',
-      descarga: ['/downloads/prueba.pdf', '/downloads/prueba.pdf'],
+      texto: 'Armenta G. (2020). Matriz de Vester [Video]. YouTube.',
+      tipo: 'Documento en línea ',
+      link: 'https://www.academia.edu/27991481/MATRIZ_DE_VESTER',
     },
     {
-      texto: '2 minutos para entender el desarrollo sostenible – Spanish',
-      tipo: 'Video',
-      link: ['https://www.google.com/', 'https://www.google.com/'],
+      texto:
+        'Canal Willy Fernando Ochoa Moreno (2020). Video tutorial elaboración matriz de Leopold. [Video]. YouTube. ',
+      tipo: 'Video de YouTube',
+      link: 'https://www.youtube.com/watch?v=gbBdXC66JsI',
+    },
+    {
+      texto:
+        'Canal soy ingenio. (2020). Árbol de problemas ¿cómo hacer un árbol de problemas? Definición, ejemplo y conclusiones - aprende fácil. [Video]. YouTube. ',
+      tipo: 'Video de YouTube',
+      link: 'https://www.youtube.com/watch?v=eO7sNmZ9Ut8',
+    },
+    {
+      texto: 'UNICISO. (2019). Mapas parlantes. [Video]. YouTube. ',
+      tipo: 'Artículo en línea',
+      link: 'http://www.portaluniciso.com/info/PARL.pdf',
     },
   ],
   creditos: {
@@ -421,6 +290,27 @@ export default {
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
+      {
+        nombre: 'Carlos Andrés Sánchez Suárez',
+        cargo: 'Experto temático',
+        centro: 'Centro Agropecuario La Granja - Regional Tolima',
+      },
+      {
+        nombre: 'Fabián Leonardo Correa Díaz',
+        cargo: 'Diseñador Instruccional',
+        centro:
+          'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander-',
+      },
+      {
+        nombre: 'Silvia Milena Sequeda Cárdenas',
+        cargo: 'Asesor metodológico',
+        centro: 'Centro de diseño y metrología - Regional Distrito Capital ',
+      },
+      {
+        nombre: 'José Gabriel Ortiz Abella',
+        cargo: 'Corrector de estilo',
+        centro: 'Centro de Diseño y Metrología - Regional Distrito Capital',
+      },
     ],
     desarrolloProducto: [
       {
@@ -435,13 +325,13 @@ export default {
         centro: 'Centro de Comercio y Servicios Regional Tolima',
       },
       {
-        nombre: ['Nombre 1', 'Nombre 2'],
+        nombre: ['Eulises Orduz'],
         cargo: 'Diseño web',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Camilo Andres Bolaño Rey',
         cargo: 'Desarrollo Front-End',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

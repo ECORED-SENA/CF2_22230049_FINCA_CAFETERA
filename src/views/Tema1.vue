@@ -654,24 +654,7 @@ export default {
     font-weight: 800
   td:nth-child(2)
     width: 30%
-.slyder-1
-  background-image: url('../assets/curso/slyder-1.png')
-  margin: 0 -3rem
-  background-repeat: no-repeat
-  background-size: cover
-  background-position: center
-  padding: 3rem
-  .slyder-a__tipo-a .slyder-a__bullets
-    bottom: -25px !important
-  .slyder-a__bullets__item--active
-    background-color: $color-primario
-    border-color: $color-primario
-    margin: 0 1px
-  .slyder-a__bullets__item
-    margin: 0 5px
-  .slyder-a__btn--sigt, .slyder-a__btn--atrs
-    background-image: url('../assets/curso/temas/flecha-marron.svg')
-    border: 3px solid #a75532
+
 .bg-2-claro
   background-color: #fcdda2 !important
 .bg-2-claro2
@@ -686,23 +669,7 @@ export default {
   background-color: #d78b65
 .bg-tj-2
   background-color: #ddb279
-.titulo-cafe
-  padding: .5rem 1rem
-  width: fit-content
-  display: flex
-  position: relative
-  background-color: #ebba7a
-  &_icon
-    position: absolute
-    top: -2%
-    right: -5%
-    transform:
-    animation: size 5s ease-in-out infinite alternate
-  @keyframes size
-    0%
-      transform: scale(1)
-    100%
-      transform: scale(1.1)
+
 .bg-4-claro
   background-color: #fff0bf !important
 .bg-llamado

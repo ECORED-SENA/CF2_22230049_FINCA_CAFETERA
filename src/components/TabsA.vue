@@ -3,7 +3,7 @@
   .row
     .col-lg-4.col-xl-5
       .row
-        .col-sm-6.col-lg-12.mb-3(
+        .col-sm-6.col-lg-12.mb-2(
           v-for="(elm,index) of elements"
           :key="'tabs-menu-'+elm.id"
         )

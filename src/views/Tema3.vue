@@ -37,99 +37,99 @@
             caption Nota. Tomada de Gerencia Ambiental de Proyectos (2017).
             thead
               tr.text-center
-                th Etapa
+                th Atributo
                 th Definición
             tbody
               tr
                 td Naturaleza
-                td Grado de afectación que puede producir la acción, va entre 1 y 16 puntos. 
+                td Determina que el impacto sea positivo o negativo.
               tr
                 td Intensidad
                 td Grado de afectación que puede producir la acción, va entre 1 y 16 puntos. 
               tr
                 td Extensión
-                p.px-4 Área de influencia teórica del impacto. La escala para determinar la extensión tiene los siguientes valores:
-                ul.lista-ul--color.px-4
-                  li
-                    i.fas.fa-circle.fa-xs(style=' color: #a75532')
-                    | Puntual: 1.
-                  li
-                    i.fas.fa-circle.fa-xs(style=' color: #a75532')
-                    | Parcial: 2.
-                  li
-                    i.fas.fa-circle.fa-xs(style=' color: #a75532')
-                    | Extenso: 4.
-                  li
-                    i.fas.fa-circle.fa-xs(style=' color: #a75532')
-                    | Total: 8.
+                td Área de influencia teórica del impacto. La escala para determinar la extensión tiene los siguientes valores:
+                  ul.lista-ul--color.mt-3
+                    li
+                      i.fas.fa-circle.fa-xs(style=' color: #a75532')
+                      | Puntual: 1.
+                    li
+                      i.fas.fa-circle.fa-xs(style=' color: #a75532')
+                      | Parcial: 2.
+                    li
+                      i.fas.fa-circle.fa-xs(style=' color: #a75532')
+                      | Extenso: 4.
+                    li
+                      i.fas.fa-circle.fa-xs(style=' color: #a75532')
+                      | Total: 8.
               tr
                 td Duración
-                p.px-4 Tiempo que se cree permanecerá el efecto:
-                ul.lista-ul--color.px-4
-                  li
-                    i.fas.fa-circle.fa-xs(style=' color: #a75532')
-                    | Fugaz: 1.
-                  li
-                    i.fas.fa-circle.fa-xs(style=' color: #a75532')
-                    | Temporal: 2.
-                  li
-                    i.fas.fa-circle.fa-xs(style=' color: #a75532')
-                    | Permanente: 4.
+                td Tiempo que se cree permanecerá el efecto:
+                  ul.lista-ul--color.mt-3
+                    li
+                      i.fas.fa-circle.fa-xs(style=' color: #a75532')
+                      | Fugaz: 1.
+                    li
+                      i.fas.fa-circle.fa-xs(style=' color: #a75532')
+                      | Temporal: 2.
+                    li
+                      i.fas.fa-circle.fa-xs(style=' color: #a75532')
+                      | Permanente: 4.
               tr
                 td Reversibilidad
-                p.px-4 Posibilidad de retornar a las condiciones iniciales previas a la acción. 
-                ul.lista-ul--color.px-4
-                  li
-                    i.fas.fa-circle.fa-xs(style=' color: #a75532')
-                    | Reversible de manera inmediata: 1.
-                  li
-                    i.fas.fa-circle.fa-xs(style=' color: #a75532')
-                    | Reversible a mediano plazo: 2.
-                  li
-                    i.fas.fa-circle.fa-xs(style=' color: #a75532')
-                    | Mitigable: 4.
-                  li
-                    i.fas.fa-circle.fa-xs(style=' color: #a75532')
-                    | Irrecuperable: 8.
+                td Posibilidad de retornar a las condiciones iniciales previas a la acción. 
+                  ul.lista-ul--color.mt-3
+                    li
+                      i.fas.fa-circle.fa-xs(style=' color: #a75532')
+                      | Reversible de manera inmediata: 1.
+                    li
+                      i.fas.fa-circle.fa-xs(style=' color: #a75532')
+                      | Reversible a mediano plazo: 2.
+                    li
+                      i.fas.fa-circle.fa-xs(style=' color: #a75532')
+                      | Mitigable: 4.
+                    li
+                      i.fas.fa-circle.fa-xs(style=' color: #a75532')
+                      | Irrecuperable: 8.
               tr
                 td Sinergia
-                p.px-4 Se establece que un impacto es sinérgico si tiene la posibilidad de generar otros impactos indirectos. 
-                ul.lista-ul--color.px-4
-                  li
-                    i.fas.fa-circle.fa-xs(style=' color: #a75532')
-                    | Sin sinergia: 1.
-                  li
-                    i.fas.fa-circle.fa-xs(style=' color: #a75532')
-                    | Sinérgico: 2.
-                  li
-                    i.fas.fa-circle.fa-xs(style=' color: #a75532')
-                    | Muy sinérgico: 4.
+                td Se establece que un impacto es sinérgico si tiene la posibilidad de generar otros impactos indirectos. 
+                  ul.lista-ul--color.mt-3
+                    li
+                      i.fas.fa-circle.fa-xs(style=' color: #a75532')
+                      | Sin sinergia: 1.
+                    li
+                      i.fas.fa-circle.fa-xs(style=' color: #a75532')
+                      | Sinérgico: 2.
+                    li
+                      i.fas.fa-circle.fa-xs(style=' color: #a75532')
+                      | Muy sinérgico: 4.
               tr
                 td Acumulación
-                p.px-4 Evalúa el hecho de que un impacto pueda llegar a sumarse con otra situación y por lo tanto aumentar. 
-                ul.lista-ul--color.px-4
-                  li
-                    i.fas.fa-circle.fa-xs(style=' color: #a75532')
-                    | Simple: 1.
-                  li
-                    i.fas.fa-circle.fa-xs(style=' color: #a75532')
-                    | Acumulativo: 4.
+                td Evalúa el hecho de que un impacto pueda llegar a sumarse con otra situación y por lo tanto aumentar. 
+                  ul.lista-ul--color.mt-3
+                    li
+                      i.fas.fa-circle.fa-xs(style=' color: #a75532')
+                      | Simple: 1.
+                    li
+                      i.fas.fa-circle.fa-xs(style=' color: #a75532')
+                      | Acumulativo: 4.
               tr
                 td Posibilidad de ocurrencia
-                p.p-4 Se refiere a qué tan probable es que el evento se presente:
-                ul.lista-ul--color.px-4
-                  li
-                    i.fas.fa-circle.fa-xs(style=' color: #a75532')
-                    | Baja: 1.
-                  li
-                    i.fas.fa-circle.fa-xs(style=' color: #a75532')
-                    | Media: 2.
-                  li
-                    i.fas.fa-circle.fa-xs(style=' color: #a75532')
-                    | Cierta: 8.
+                td Se refiere a qué tan probable es que el evento se presente:
+                  ul.lista-ul--color.mt-3
+                    li
+                      i.fas.fa-circle.fa-xs(style=' color: #a75532')
+                      | Baja: 1.
+                    li
+                      i.fas.fa-circle.fa-xs(style=' color: #a75532')
+                      | Media: 2.
+                    li
+                      i.fas.fa-circle.fa-xs(style=' color: #a75532')
+                      | Cierta: 8.
               tr
                 td Importancia total del impacto
-                p.p-4 Esta puede tomar valores entre 10 y 92. El valor de los impactos se establece con la siguiente ecuación:
+                td Esta puede tomar valores entre 10 y 92. El valor de los impactos se establece con la siguiente ecuación:
 
                   br
                   br
@@ -162,7 +162,6 @@
         .col-lg-10
           .tabla-editada1.mb-5
             table
-              caption Nota. Tomada de Gerencia Ambiental de Proyectos (2017).
               thead
                 tr.text-center
                   th Importancia
@@ -171,7 +170,7 @@
               tbody
                 tr
                   td.text-center Irrelevante
-                  td.text-center <20
+                  td.text-center 20
                   td(style='background-color: #4ba42f ; width: 10%')
                 tr
                   td.text-center Bajo
@@ -238,7 +237,7 @@
                     h5.mb-1 Anexo
                     p.text-small Para ampliar su conocimiento en lo referente a las alternativas de solución de las problemáticas ambientales, se debe estudiar estudie con atención el contenido del Anexo_1_AlternativasDeSolucion.
                   .col-sm-auto
-                    a.boton.boton-amarillo(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+                    a.boton.boton-amarillo(:href="obtenerLink('/downloads/documento1.pdf')" target="_blank")
                       span.tex Descargar
                       i.fas.fa-file-download
     Separador
@@ -346,7 +345,7 @@
             | Con esta metodología es posible mirar hacia el interior de la empresa rural para identificar las debilidades y fortalezas.
           li.mb-4
             span.text-bold 2. 
-            | Con la aplicación de la matriz DOFA se puede tener una visión de lo que sucede afuera al identificar las oportunidades y amenazas.
+            | De igual manera con la aplicación de la matriz DOFA se puede tener una visión de lo que sucede afuera al identificar las oportunidades y amenazas.
           li.mb-4
             span.text-bold 3. 
             | Con base en los cuatro criterios que determinan la matriz DOFA, es posible generar planes de acción a través de la identificación de los aspectos que se llevarán a cabo para superar las debilidades y hacer frente a las amenazas e, igualmente, aprovechar las fortalezas y las oportunidades. 
@@ -393,8 +392,8 @@
                 th Responsables
                 th Recursos estimados
             tbody
-              tr
-                td(rowspan=3) Aumentar en 10 % la productividad de los cafetales mediante la implementación de planes de fertilización.
+              tr.tabla-bg-1
+                td(rowspan=3).text-center.txt-t-c Aumentar en 10 % la productividad de los cafetales mediante la implementación de planes de fertilización.
                 td Capacitar al 100 % de los operarios en implementación de planes de fertilización.
                 td Administrador – operarios.
                 td Alquiler de salón.
@@ -413,7 +412,7 @@
                   br
                   |Transporte de fertilizante hasta los lotes.
 
-              tr
+              tr.tabla-bg-1
                 td Realizar cuatro planes de fertilización, uno para cada lote sembrado en café en la finca La Colina.
                 td Equipo administrativo – contratista.
                 td Contratación de laboratorio para análisis de suelos

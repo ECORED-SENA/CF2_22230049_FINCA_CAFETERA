@@ -120,12 +120,12 @@ export default {
         titulo: 'Síntesis',
         nombreRuta: 'sintesis',
       },
-      // {
-      //   nombreRuta: 'actividad',
-      //   icono: 'far fa-question-circle',
-      //   titulo: 'Actividad didáctica',
-      //   desarrolloContenidos: true,
-      // },
+      {
+        nombreRuta: 'actividad',
+        icono: 'far fa-question-circle',
+        titulo: 'Actividad didáctica',
+        desarrolloContenidos: true,
+      },
       {
         nombreRuta: 'glosario',
         icono: 'fas fa-sort-alpha-down',
@@ -156,7 +156,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Canal David Felibert Ingeniero Ambiental. (2020). Valoración de servicios ambientales ¿Valoración Económica del Ambiente? [Video]. YouTube.',
+        'Canal David Felibert Ingeniero Ambiental. (2020). Valoración de servicios ambientales ¿Valoración Económica del Ambiente? ',
       link: 'https://www.youtube.com/watch?v=OrMfQ1eqJrs',
     },
     {
@@ -236,41 +236,41 @@ export default {
   complementario: [
     {
       texto:
-        'Canal David Felibert Ingeniero Ambiental. (2020). Valoración de servicios ambientales ¿Valoración económica del ambiente? [Video]. YouTube.',
+        'Canal David Felibert Ingeniero Ambiental. (2020). Valoración de servicios ambientales ¿Valoración económica del ambiente? ',
       tipo: 'Video de YouTube',
       link: 'https://www.youtube.com/watch?v=OrMfQ1eqJrs',
     },
     {
       texto:
-        'Canal Marketing 2.0. (2019). Cómo hacer encuestas de investigación / partes de la encuesta. [Video]. YouTube. ',
+        'Canal Marketing 2.0. (2019). Cómo hacer encuestas de investigación / partes de la encuesta.  ',
       tipo: 'Video de YouTube',
       link: 'https://www.youtube.com/watch?v=l3GrfOGG8hA',
     },
     {
       texto:
-        'ISO Sistemas de Gestión (2020). ISO 14001:2015 Matriz de aspectos ambientales significativos, ¿cómo hacerla? [Video]. YouTube. ',
+        'ISO Sistemas de Gestión (2020). ISO 14001:2015 Matriz de aspectos ambientales significativos, ¿cómo hacerla?  ',
       tipo: 'Video de YouTube',
       link: 'https://www.youtube.com/watch?v=82ww7BgbKSI',
     },
     {
-      texto: 'Armenta G. (2020). Matriz de Vester [Video]. YouTube.',
+      texto: 'Armenta G. (2020). Matriz de Vester ',
       tipo: 'Documento en línea ',
       link: 'https://www.academia.edu/27991481/MATRIZ_DE_VESTER',
     },
     {
       texto:
-        'Canal Willy Fernando Ochoa Moreno (2020). Video tutorial elaboración matriz de Leopold. [Video]. YouTube. ',
+        'Canal Willy Fernando Ochoa Moreno (2020). Video tutorial elaboración matriz de Leopold.  ',
       tipo: 'Video de YouTube',
       link: 'https://www.youtube.com/watch?v=gbBdXC66JsI',
     },
     {
       texto:
-        'Canal soy ingenio. (2020). Árbol de problemas ¿cómo hacer un árbol de problemas? Definición, ejemplo y conclusiones - aprende fácil. [Video]. YouTube. ',
+        'Canal soy ingenio. (2020). Árbol de problemas ¿cómo hacer un árbol de problemas? Definición, ejemplo y conclusiones - aprende fácil.  ',
       tipo: 'Video de YouTube',
       link: 'https://www.youtube.com/watch?v=eO7sNmZ9Ut8',
     },
     {
-      texto: 'UNICISO. (2019). Mapas parlantes. [Video]. YouTube. ',
+      texto: 'UNICISO. (2019). Mapas parlantes.  ',
       tipo: 'Artículo en línea',
       link: 'http://www.portaluniciso.com/info/PARL.pdf',
     },
@@ -297,7 +297,7 @@ export default {
       },
       {
         nombre: 'Fabián Leonardo Correa Díaz',
-        cargo: 'Diseñador Instruccional',
+        cargo: 'Diseñador instruccional',
         centro:
           'Centro de la Industria, la Empresa y los Servicios - Regional Norte de Santander-',
       },
@@ -332,7 +332,7 @@ export default {
       },
       {
         nombre: 'Camilo Andres Bolaño Rey',
-        cargo: 'Desarrollo Front-End',
+        cargo: 'Desarrollo front-end',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
@@ -343,7 +343,7 @@ export default {
           'Centro Industrial del Diseño y la Manufactura Regional Santander',
       },
       {
-        nombre: 'Nombre',
+        nombre: 'Maria Eugenia Mejía López',
         cargo: 'Validación de diseño y contenido',
         centro:
           'Centro Industrial del Diseño y la Manufactura Regional Santander',

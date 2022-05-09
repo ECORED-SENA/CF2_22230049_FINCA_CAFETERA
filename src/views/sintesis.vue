@@ -2,16 +2,10 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    .titulo-cafe.mb-5
-      h3.mb-0.text-center.color-secundario.font-weight-bold.me-4
-        |Síntesis	
-      .titulo-cafe_icon: img(src='@/assets/curso/temas/17.svg' alt='Icono de la categoria')
-
-    
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
       .col-auto
         a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
           .anexo__icono

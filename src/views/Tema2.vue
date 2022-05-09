@@ -7,21 +7,18 @@
         span 1
       h1 Diagnóstico ambiental y productivo
     .franja_content.mb-5
-      .franja(style='bottom: 24% ; height: 137px ; background: #fcdda2 !important ' )
+      .franja(style='bottom: 35% ; height: 120px ; background: #fcdda2 !important ' ).ms-lg-5.ms-0
       .content
         .row.justify-content-center.align-items-center
           .col-lg-5
             figure
               img.rounded-2(src='@/assets/curso/temas/28.png', alt='Texto que describa la imagen')
           .col-lg-7
-            p Un diagnóstico es una caracterización del estado actual de un elemento, situación, comunidad, organismo o sistema en el que se reflejan sus particularidades en un momento determinado para conocer su funcionamiento y los factores que intervienen en él. 
-              br
-              br
-              br
-              |En el caso del diagnóstico ambiental y productivo, esta caracterización se realiza sobre un área determinada que se denomina área de estudio, en la cual se analizan a profundidad los elementos que la constituyen y la forma como estos se interrelacionan e interactúan entre sí y con el componente humano. 
-              br
-              br
-              |Se invita a prestar atención a los aspectos y elementos clave de un diagnóstico ambiental y productivo, que explican y detallan en siguiente recurso:
+            p.mb-4 Un diagnóstico es una caracterización del estado actual de un elemento, situación, comunidad, organismo o sistema en el que se reflejan sus particularidades en un momento determinado para conocer su funcionamiento y los factores que intervienen en él. 
+              
+            p.ps-3.mb-4 En el caso del diagnóstico ambiental y productivo, esta caracterización se realiza sobre un área determinada que se denomina <b>área de estudio</b>, en la cual se analizan a profundidad los elementos que la constituyen y la forma como estos se interrelacionan e interactúan entre sí y con el componente humano. 
+              
+            p Se invita a prestar atención a los aspectos y elementos clave de un diagnóstico ambiental y productivo, que explican y detallan en siguiente recurso:
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -37,26 +34,24 @@
       SlyderE.mb-5
         .row
           .col-lg-5
-            h4 Encuestas
+            h3 Encuestas
             p Recolectan información básica sobre el sistema productivo, como épocas de lluvias, productividad, áreas sembradas, incidencia de plagas y enfermedades y comercialización, entre otros datos. Se pueden aplicar a individuos o comunidades.
               br 
               br 
-              b - Ámbito de aplicación:  
+              | - <b>Ámbito de aplicación:</b> diagnósticos productivos - ambientales.   
+
           .col-lg-7: img(src='@/assets/curso/temas/29.jpg')
         .row
           .col-lg-5
-            h4 Mapas parlantes
+            h3 Mapas parlantes
             p También conocidos como cartografía social. Son mapas construidos con la comunidad donde se reflejan, de forma gráfica, las características prediales o veredales. Para su construcción se hacen preguntas puntuales a la comunidad sobre alguna situación particular que se ubica dentro del mapa.
               br
               br
               b - Ámbito de aplicación: diagnósticos productivos – ambientales. 
-              br
-              br
-              | * Imagen tomada de: http://extractivismoencolombia.org/mapa-parlante-sobre-extractivismo-en-la-guajira/
           .col-lg-7: img(src='@/assets/curso/temas/30.jpg')
         .row
           .col-lg-5
-            h4 Mapas productivos
+            h3 Mapas productivos
             p Representaciones gráficas de épocas de cosechas, temporadas de lluvias, principales productos cultivados, especies nativas presentes en el territorio. Guardan cierta similitud con los mapas parlantes.
               br
               br
@@ -64,7 +59,7 @@
           .col-lg-7: img(src='@/assets/curso/temas/31.jpg')
         .row
           .col-lg-5
-            h4 Mapas de costos de producción
+            h3 Mapas de costos de producción
             p Cuadros construidos con la comunidad donde se evidencian los costos de producción de las explotaciones seleccionadas.
               br
               br
@@ -72,7 +67,7 @@
           .col-lg-7: img(src='@/assets/curso/temas/32.jpg')
         .row
           .col-lg-5
-            h4 Georreferenciación
+            h3 Georreferenciación
             p Mediante la incorporación de sistemas de información geográfica, los datos recopilados en campo se trasladan a información geográfica.
               br
               br
@@ -80,7 +75,7 @@
           .col-lg-7: img(src='@/assets/curso/temas/33.jpg')
         .row
           .col-lg-5
-            h4 ¡Importante!
+            h3 ¡Importante!
             p Las herramientas de diagnóstico permiten acopiar información de primera mano sobre las situaciones problemáticas identificadas en el territorio. Esta información inicial se emplea para la construcción de los diagnósticos que debe ser procesada de acuerdo con diferentes metodologías. 
           .col-lg-7: img(src='@/assets/curso/temas/34.jpg')
     Separador
@@ -128,16 +123,18 @@
             .col-lg-6: img(src='@/assets/curso/temas/42.jpg')
           .row.text-small(numero="9" titulo="Trabajo por equipos")
             .col-lg-6
-              p Uno de acuerdo con su experiencia y conocimientos hace aportes para determinar qué problemas tienen mayor influencia sobre otros. Luego, tras un proceso de concertación, se establecen las conclusiones y se procede a sistematizar la información.
+              p Para analizar los problemas y sus causalidades, generalmente se desarrolla un trabajo por equipos, en donde cada uno de acuerdo con su experiencia y conocimientos hace aportes para determinar qué problemas tienen mayor influencia sobre otros. Luego, tras un proceso de concertación, se establecen las conclusiones y se procede a sistematizar la información.
             .col-lg-6: img(src='@/assets/curso/temas/43.jpg')
           .row.text-small(numero="10" titulo="Matriz de aspectos e impactos ambientales")
             .col-lg-6
               p Permite una visualización general de las problemáticas ambientales y su interacción al interior del área de estudio. Es una de las herramientas más completas para este tipo de diagnósticos, pero su implementación requiere de un grado de conocimiento técnico un poco mayor. 
-            .col-lg-6: img(src='@/assets/curso/temas/44.jpg')
+            .col-lg-6
+              h4.text-center Matriz de identificación de aspectos e impactos ambientales
+              img(src='@/assets/curso/temas/44.jpg')
           .row.text-small(numero="11" titulo="Requerimientos para matriz de aspectos impactos")
             .col-lg-6
               p Para emplear esta metodología, es importante conocer que la relación entre los aspectos ambientales y los impactos es de causa y efecto. Es decir, que se debe tener claridad sobre qué actividades se llevarán a cabo, dentro de la unidad productiva, y qué efectos positivos o negativos tendrán estas sobre el entorno, pues esta información es la que alimentará la matriz y servirá de insumo para realizar los respectivos análisis y conclusiones. 
-            .col-lg-6: img(src='@/assets/curso/temas/34.jpg')
+            .col-lg-6: img(src='@/assets/curso/temas/45.jpg')
     Separador
     #t_2_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 2.3 Generación de informes
@@ -210,13 +207,12 @@
 
           .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="5. Ortografía y gramática")
             h4 Ortografía y gramática
-            p De debe cuidar la ortografía y la gramática en la elaboración del informe, por respeto al lector.  
+            p Se debe cuidar la ortografía y la gramática en la elaboración del informe, por respeto al lector.  
+    p.mb-3 En lo relacionado con la estructura del documento de informe de diagnóstico ambiental, existen diferentes alternativas. En el siguiente recurso, se muestra la metodología más apropiada para establecer el esquema estructural de un informe ambiental.
     .contenedor-verde.p-5
       .row
         .col-lg-6
-          p En lo relacionado con la estructura del documento de informe de diagnóstico ambiental, existen diferentes alternativas. En el siguiente recurso, se muestra la metodología más apropiada para establecer el esquema estructural de un informe ambiental.
-            br
-            br
+          p 
             b Portada
             br
             |Debe incluir, al menos, el nombre del informe, responsable, ciudad y fecha de elaboración. También otros datos de identificación que se consideren importantes o necesarios.
@@ -329,7 +325,7 @@
               tr
                 td.text-center(style='width: 10%') Matriz de Vester
                 td Entrega una matriz en la que se confrontan los problemas entre sí con base en criterios numéricos bajo un principio de causalidad (causas y efectos).
-                td La información que se presenta en la matriz indica el grado de causalidad entre un problema y otro: 0 para ninguna causalidad, 1 cuando un problema tiene una causalidad indirecta sobre otro o es muy débil, 2 cuando un problema tiene sobre otro una causalidad media o semiindirecta, 3 cuando el problema tiene sobre el otro una causalidad fuerte o bien incide fuertemente sobre este. <br>Las acciones de mejora o de mitigación se basan en los problemas que tienen una alta causalidad sobre los demás. 
+                td La información que se presenta en la matriz indica el grado de causalidad entre un problema y otro: 0 para ninguna causalidad, 1 cuando un problema tiene una causalidad indirecta sobre otro o es muy débil, 2 cuando un problema tiene sobre otro una causalidad media o semi-indirecta, 3 cuando el problema tiene sobre el otro una causalidad fuerte o bien incide fuertemente sobre este. <br>Las acciones de mejora o de mitigación se basan en los problemas que tienen una alta causalidad sobre los demás. 
 
               tr
                 td.text-center(style='width: 10%') Matriz de aspectos e impactos ambientales
@@ -475,27 +471,35 @@
                 td Erosión del suelo.
                 td N° y tipo de medidas adoptadas en el ahoyado. 
               tr
-                td.text-center(style='width: ' rowspan='2') Nutrición
-                td Erosión del suelo
+                td.text-center(style='width: ' rowspan='2') Siembra.
+                td Erosión del suelo.
                 td N° y tipo de medidas adoptadas durante la siembra. 
               tr
                 td.fw-normal Contaminación con residuos sólidos.
                 td N° de eventos de capacitación en manejo de residuos sólidos realizados durante el año. 
               tr
-                td.text-center(style='width: ' rowspan='4') Crecimiento y desarrollo
+                td.text-center(style='width: ' rowspan='6') Crecimiento y desarrollo
                 td  Manejo de arvenses.
                 td  Erosión del suelo.
                 td  Programa de manejo integrado de arvenses implementado.
               tr
                 td(style='width: ' rowspan='2')  Manejo de plagas y enfermedades.
-                td  Contaminación de fuentes de agua 
+                td  Contaminación de fuentes de agua. 
                 td  N° de eventos de capacitación sobre uso seguro de agroquímicos realizados durante el año.
               tr
                 td  Residualidad en el suelo por productos químicos.
                 td  Programa de manejo integrado de plagas y enfermedades implementado.
               tr
+                td(style='width: ' rowspan='2')  Nutrición.
+                td  Disminución del potencial productivo del suelo.
+                td  Plan de nutrición de cultivo
+              tr
+                td Conraminación de fuentes de agua. 
+                td N° de eventos de capacitación sobre uso seguro de agroquímicos realizados durante el año.
+
+              tr
                 td  Renovación.
-                td  Erosión del suelo
+                td  Erosión del suelo.
                 td  N° de eventos de capacitación en prácticas de conservación de suelos realizados durante el año. 
               tr
                 td(rowspan=2) Cosecha y postcosecha 

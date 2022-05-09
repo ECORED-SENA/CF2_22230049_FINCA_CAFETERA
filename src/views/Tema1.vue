@@ -5,11 +5,11 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Uso del suelo
+      h1 Uso del suelos
     .banner-1.p-5.mb-5
       .row.justify-content-end
         .col-lg-8
-          p El suelo es uno de los principales recursos para la humanidad y para el sustento de la vida en el planeta ya que, además de proveer los elementos que nutren a las plantas, es importante para el sostenimiento de la mayoría de las actividades humanas y la satisfacción de sus necesidades más básicas: alimento, agua y refugio. 
+          p El suelo es uno de los principales recursos para la humanidad y para el sustento de la vida en el planeta ya que, además, de proveer los elementos que nutren a las plantas, es importante para el sostenimiento de la mayoría de las actividades humanas y la satisfacción de sus necesidades más básicas: alimento, agua y refugio. 
             br
             br
             |Sobre el suelo, es posible enunciar algunas particularidades, en el marco de la producción cafetera y agrícola, en general:
@@ -25,15 +25,15 @@
                 .indicador--click(v-if="mostrarIndicador")
     .modales-botones
       ModalA(:abrir-modal.sync="modal1")
-        div
+        div.texto-cafe
           h5 Recursos proveedor
           p El suelo también es la base de industrias como la minería y la construcción, las cuales dependen enteramente de lo que este provea.
       ModalA(:abrir-modal.sync="modal2")
-        div
+        div.texto-cafe
           h5 Recurso de conflictos
           p El suelo, en tanto recurso, es uno de los bienes más codiciados y por el cual se han producido enfrentamientos y conflictos a lo largo de la historia entre individuos y entre comunidades enteras.
       ModalA(:abrir-modal.sync="modal3")
-        div
+        div.texto-cafe
           h5 Recurso regulado 
           p Para reducir conflictos asociados con el acceso al suelo y para ordenar su aprovechamiento, los gobiernos del mundo han estructurado diversas maneras de regular la propiedad y obtener los mejores beneficios con principios de equidad y sostenibilidad. 
     p.mb-5.text-center <b>De acuerdo con la normatividad colombiana, las clases de suelo que se han catalogado son las siguientes:</b>
@@ -76,15 +76,15 @@
         .row.justify-content-center
           .col-lg-8
             p En materia de normatividad existen diferentes leyes y artículos en los que se definen las bases y principios en materia de ordenamiento del territorio para resolver los conflictos asociados al uso del suelo y delimitar las áreas que resultan prioritarias para los intereses de la comunidad en general.
-              br 
               br
-              | Con la expedición de la Ley 2 de 1959, Colombia tuvo un avance importante en materia de delimitación de áreas de interés general al establecer las que se convertirían en áreas para el desarrollo de la economía forestal y protección de los suelos, las aguas y la vida silvestre. Fue así como con esta ley se introdujeron conceptos como las “zonas forestales protectoras” y los “bosques de interés general”. 
+              br
+              | Con la expedición de la <b>Ley 2 de 1959</b>, Colombia tuvo un avance importante en materia de delimitación de áreas de interés general al establecer las que se convertirían en áreas para el desarrollo de la economía forestal y protección de los suelos, las aguas y la vida silvestre. Fue así como con esta ley se introdujeron conceptos como las “<b>zonas forestales protectoras</b>” y los “<b>bosques de interés general</b>”. 
           .col-lg-4
             figure
               img.rounded-2(src='@/assets/curso/temas/2.jpg', alt='Texto que describa la imagen')
     p.mb-5.fw-bold.text-center En la siguiente tabla, se presenta la normatividad del ordenamiento territorial y uso del suelo en Colombia.
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 1
+      h5 Tabla 1.
       span Diferencias entre conflictos y problemas ambientales
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -108,7 +108,7 @@
               tr
                 td.text-center 1974
                 td.text-center Decreto-Ley 2811 de 1974 - Presidencia de la República
-                td Código Nacional del Recursos Naturales Renovables y Protección del Medio Ambiente.
+                td Código Nacional de Recursos Naturales Renovables y Protección del Medio Ambiente.
               tr
                 td.text-center 1989
                 td.text-center Ley 9 de 1989 - Congreso de la República.
@@ -157,6 +157,7 @@
                 td.text-center 2011
                 td.text-center Ley 1453 de 2011 - Congreso de la República
                 td Reforma el Código Penal, el Código de Procedimiento Penal, el Código de Infancia y Adolescencia, las reglas sobre extinción de dominio y se dictan otras disposiciones en materia de seguridad. Se actualizan y modifican los delitos contra el ambiente.
+    p.mb-5.fw-bold.text-center Otros aspectos, de suma importancia, referentes a normatividad sobre territorio y suelos que se deben conocer y tener en cuenta, son: 
     .slyder-1.mb-5
       SlyderA
         .row.px-5.align-items-center.justify-content-center
@@ -186,28 +187,28 @@
             p Igualmente, en varios de sus artículos pone de manifiesto la relación entre el planeamiento y el aprovechamiento de los recursos naturales, como lo expresado en el artículo 79 que ratifica el derecho a gozar de un ambiente sano, la participación de las comunidades en instancias de decisión relacionadas con el medio ambiente y las obligaciones del Estado en lo relacionado con la protección del ambiente. 
           .col-md-5
             figure
-              img.rounded-3(src='@/assets/curso/temas/6.png', alt='Texto que describa la imagen')
+              img.rounded-3(src='@/assets/curso/temas/9.png', alt='Texto que describa la imagen')
         .row.px-5.align-items-center.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h4 Ministerio de Ambiente
             p Otro de los eventos importantes en materia normativa, es la creación en 1993 del Ministerio de Ambiente y del SINA (Sistema Nacional Ambiental) con lo cual se dotó a las instituciones de las herramientas legales para ejercer un control mucho más estricto sobre el manejo de los recursos naturales, su aprovechamiento y su integración con el ordenamiento territorial. 
           .col-md-5
             figure
-              img.rounded-3(src='@/assets/curso/temas/7.png', alt='Texto que describa la imagen')
+              img.rounded-3(src='@/assets/curso/temas/6.png', alt='Texto que describa la imagen')
         .row.px-5.align-items-center.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h4 Plan de ordenamiento territorial
             p En el año 1997, la expedición de la Ley 388 sentó las bases para el ordenamiento territorial. En el marco de esta ley surge el plan de ordenamiento territorial, el cual se constituye en el instrumento empleado en el ámbito local para el desarrollo del proceso de ordenamiento. 
           .col-md-5
             figure
-              img.rounded-3(src='@/assets/curso/temas/8.png', alt='Texto que describa la imagen')
+              img.rounded-3(src='@/assets/curso/temas/7.png', alt='Texto que describa la imagen')
         .row.px-5.align-items-center.justify-content-center
           .col-md-5.mb-4.mb-md-0
             h4 Delitos ambientales
             p La Ley 599 de 2000, como reforma al Código Penal, incluyó los delitos contra los recursos naturales y el medio ambiente, dando nuevas perspectivas a la relación de las comunidades con su entorno; además, le permitió al Estado, avanzar en la protección de los recursos y el ordenamiento. 
           .col-md-5
             figure
-              img.rounded-3(src='@/assets/curso/temas/9.png', alt='Texto que describa la imagen')
+              img.rounded-3(src='@/assets/curso/temas/8.png', alt='Texto que describa la imagen')
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10
         .cajon.color-secundario.bg-2-claro.p-4.mb-4
@@ -217,13 +218,15 @@
                 img(src='@/assets/curso/temas/10.svg', alt='Texto que describa la imagen' style='width: 93px;').m-auto
             .col-lg-10
               .h5 ¡Para recordar!
-              p La ley define el Plan de Ordenamiento Territorial (POT) como el “el conjunto de objetivos, directrices, políticas, estrategias, metas, programas, actuaciones y normas adoptadas para orientar y administrar el desarrollo físico del territorio y la utilización del suelo”.
-                br 
+              p La ley define el Plan de Ordenamiento Territorial (POT) como “el conjunto de objetivos, directrices, políticas, estrategias, metas, programas, actuaciones y normas adoptadas para orientar y administrar el desarrollo físico del territorio y la utilización del suelo”.
+                br
                 |Ley 388 de 1997.
     Separador
     #t_1_2.titulo-segundo.color-acento-contenido(data-aos='fade-right')
       h2 1.2 El ordenamiento territorial 
-    p.mb-5 Si bien la normatividad relacionada con el ordenamiento del territorio es bastante amplia, es necesario desarrollar mecanismos que involucren a la comunidad y a las entidades territoriales para lograr su aplicación efectiva y el desarrollo de procesos sostenibles y acordes con la ley. El uso del suelo debe estar sujeto a parámetros como su vocación y su aptitud, pues de lo contrario se pondrá en riesgo su integridad y sostenibilidad en el futuro. 
+    p.mb-3 Si bien la normatividad relacionada con el ordenamiento del territorio es bastante amplia, es necesario desarrollar mecanismos que involucren a la comunidad y a las entidades territoriales para lograr su aplicación efectiva y el desarrollo de procesos sostenibles y acordes con la ley. El uso del suelo debe estar sujeto a parámetros como su vocación y su aptitud, pues de lo contrario se pondrá en riesgo su integridad y sostenibilidad en el futuro. 
+    figure.mb-5
+      img(src='@/assets/curso/temas/74.jpg', alt='Texto que describa la imagen')
     p.mb-5.fw-bold.text-center Una de las claves para el ordenamiento territorial es la expedición de la Ley 388 de 1997 que fijó los siguientes objetivos:
     .row.justify-content-center
       .col-lg-4: img(src='@/assets/curso/temas/11.jpg', alt='Texto que describa la imagen')
@@ -245,8 +248,8 @@
             h4 Integralidad
             p Facilitar la ejecución de actuaciones urbanas integrales.
     p.mb-5 Sobre el Plan de Ordenamiento Territorial se deben tener en cuenta otros aspectos de suma importancia; pues su conocimiento y aplicación favorecen, ostensiblemente, la reducción de conflictos alrededor del uso del suelo y la pertinencia de tales usos, a saber:
-    .bg-infografic.pt-5
-      .row.justify-content-center.align-items-center.mb-0.mb-lg-0
+    .bg-infografic.py-5.margin-b-negative
+      .row.justify-content-center.align-items-center.mb-5.mb-lg-0
         .col-lg-10
           .imagen-infografica-1
             ImagenInfografica.color-secundario.mb-5
@@ -254,7 +257,7 @@
                 figure
                   img(src='@/assets/curso/temas/12.svg', alt='Texto que describa la imagen')
               .tarjeta.p-3(x="26.2%" y="42.5%" numero="")
-                h6.mb-0 En los municipios
+                h6.mb-0 1. En los municipios
                 p.mb-0 El POT municipal es un conjunto de acciones políticas, administrativas y de planificación física para orientar el desarrollo del territorio y regular la forma como se ocupa y aprovecha el espacio, considerando los planes de desarrollo locales y las características socioculturales de las comunidades involucradas. 
               .tarjeta.p-3(x="36%" y="75%" numero="")
                 h6.mb-0 2. Planeación y objetivo de la planeación
@@ -273,35 +276,37 @@
                 h6.mb-0 6. Procesos productivos y el POT
 
                 p.mb-0 Para el desarrollo de cualquier proceso productivo es importante consultar el POT para  identificar si la actividad propuesta está permitida en ese espacio. En los municipios, es la <b>secretaría de planeación</b> la entidad encargada de entregar las certificaciones de uso del suelo.
-      .row.g-2
-        .col-md-6.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/temas/13.svg' alt='AvatarTop')
-            .tarjeta.bg-tj-1.w-100
-              .p-4
-                h5 POT
-                p Son elaborados e implementados por los distritos y municipios con población superior a los 100.000 habitantes.
-        .col-md-6.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/temas/14.svg' alt='AvatarTop')
-            .tarjeta.bg-tj-2.w-100
-              .p-4
-                h5 PBOT
-                p Se desarrollan para los municipios que tienen entre 30.000 y 100.000 habitantes.
-        .col-md-6.col-lg.mb-5.mb-lg-0
-          .tarjeta-avatar
-            img(src='@/assets/curso/temas/15.svg' alt='AvatarTop')
-            .tarjeta.color-secundario.w-100
-              .p-4
-                h5 EOT
-                p Elaborados y adoptados en municipios con población inferior a los 30.000 habitantes.
+    .row.g-2.pt-5
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/13.svg' alt='AvatarTop')
+          .tarjeta.bg-tj-1.w-100
+            .p-4
+              h5 POT
+              p Son elaborados e implementados por los distritos y municipios con población superior a los 100.000 habitantes.
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/14.svg' alt='AvatarTop')
+          .tarjeta.bg-tj-2.w-100
+            .p-4
+              h5 PBOT
+              p Se desarrollan para los municipios que tienen entre 30.000 y 100.000 habitantes.
+      .col-md-6.col-lg.mb-5.mb-lg-0
+        .tarjeta-avatar
+          img(src='@/assets/curso/temas/15.svg' alt='AvatarTop')
+          .tarjeta.color-secundario.w-100
+            .p-4
+              h5 EOT
+              p Elaborados y adoptados en municipios con población inferior a los 30.000 habitantes.
     Separador
+    #t_1_3.titulo-segundo.color-acento-contenido(data-aos='fade-right')
+      h2 1.3 Conflictos de uso del suelo
     .franja_content.mb-5
       .franja(style='bottom: 26% ; height: 99px' )
       .content
         .row.justify-content-center
           .col-lg-7
-            p Los procesos de ordenamiento del territorio deben considerar una serie de factores que permitan identificar las potencialidades o las limitantes para el desarrollo de determinadas actividades en ese entorno en particular. Cuando los procesos de planificación del territorio se llevan a cabo con criterio técnico y teniendo en cuenta sus particularidades biofísicas, ambientales, socioeconómicas y políticas, es posible que los usos permitidos en esa zona en particular coincidan con lo que se denomina la “vocación del suelo”.
+            p Los procesos de ordenamiento del territorio deben considerar una serie de factores que permitan identificar las potencialidades o las limitantes para el desarrollo de determinadas actividades en ese entorno en particular. Cuando los procesos de planificación del territorio se llevan a cabo con criterio técnico y teniendo en cuenta sus particularidades biofísicas, ambientales, socioeconómicas y políticas, es posible que los usos permitidos en esa zona en particular coincidan con lo que se denomina la “<b>vocación del suelo</b>”.
               br
               br
               |Si por el contrario los procesos de planificación se desarrollan sin tener en cuenta esas particularidades, es muy posible que los usos permitidos estén en contravía con la vocación de suelo, lo que puede dar lugar a conflictos en el uso del suelo.
@@ -310,7 +315,7 @@
               |Se invita a profundizar en las generalidades de los conflictos del uso del suelo: hechos, causas, consecuencias y factores característicos, según el caso, mediante el recurso que, a continuación, se presenta:
           .col-lg-5
             figure
-              img.rounded-2(src='@/assets/curso/temas/16.jpg', alt='Texto que describa la imagen')      
+              img.rounded-2(src='@/assets/curso/temas/16.jpg', alt='Texto que describa la imagen')
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
@@ -318,7 +323,7 @@
     .titulo-cafe.mb-5
       h3.mb-0.text-center.color-secundario.font-weight-bold.me-3
         |Categorías de los usos del suelo 
-      .titulo-cafe_icon: img(src='@/assets/curso/temas/17.svg' alt='Icono de la categoria')   
+      .titulo-cafe_icon: img(src='@/assets/curso/temas/17.svg' alt='Icono de la categoria')
     p.mb-4 Para definir la vocación de los suelos es importante tener en cuenta las categorías de los usos del suelo que consisten en la revisión de la coincidencia entre la vocación y los posibles usos que se le pueden dar, de acuerdo con parámetros técnicos y agroecológicos.
     p.mb-3.fw-bold.text-center Las categorías de los usos del suelo son las siguientes:
     .row.justify-content-center
@@ -340,7 +345,7 @@
       .col-lg-4: img(src='@/assets/curso/temas/18.jpg', alt='Texto que describa la imagen')
     p.mb-5 Existen ocho clases de suelos distribuidos en el territorio nacional, según el IGAC. En la siguiente tabla se presentan sus principales características y los usos permitidos, de acuerdo con sus condiciones agroecológicas, cobertura y aptitud:
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 2
+      h5 Tabla 2.
       span Clases de suelos en Colombia de acuerdo con su aptitud
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -354,45 +359,45 @@
                 th Usos permitidos
                 th Extensión en millones de hectáreas
             tbody
-              tr
-                td.text-center 1 - 2
+              tr.tabla-bg-1
+                td.text-center.txt-t-c 1 - 2
                 td(rowspan=2) Suelos arables con alta capacidad productiva. 
-                td(rowspan=2) Desarrollo de proyectos agropecuarios con muy pocas limitaciones. 
-                td.text-center 1
+                td(rowspan=2) 
+                td.text-center.txt-t-c 1
 
+              tr.tabla-bg-1
+                td.text-center.txt-t-c 3
+                td.text-center.txt-t-c 2,3
               tr
-                td.text-center 3
-                td.text-center 2,3
-              tr
-                td.text-center 4
+                td.text-center.txt-t-c 4
                 td Alto contenido de aluminio (alta acidez). Baja fertilidad. 
                 td Aptas para cultivo, pero con altos costos de adecuación.
-                td.text-center 14,5
-              tr
-                td.text-center 5
+                td.text-center.txt-t-c 14,5
+              tr.tabla-bg-1
+                td.text-center.txt-t-c 5
                 td Áreas proclives a anegación - zonas pedregosas. 
                 td Uso estacional. Zonas no aptas para cultivo en época de lluvias. 
-                td.text-center 8,4
+                td.text-center.txt-t-c 8,4
               tr
-                td.text-center 6
-                td Centro y oriente de la amazonia - región pacífica y piedemonte andino.
+                td.text-center.txt-t-c 6
+                td Centro y oriente de la Amazonía - región Pacífica y Piedemonte Andino.
                 td Actividades forestales y agroforestales. 
-                td.text-center 29,9
-              tr
-                td.text-center 7
+                td.text-center.txt-t-c 29,9
+              tr.tabla-bg-1
+                td.text-center.txt-t-c 7
                 td Terrenos con pendientes pronunciadas y con alta vulnerabilidad frente a procesos erosivos. 
                 td Producción forestal - Actividades de conservación
-                td.text-center 41,2
+                td.text-center.txt-t-c 41,2
               tr
-                td.text-center 8
+                td.text-center.txt-t-c 8
                 td Zonas de páramos - Sierra Nevada de Santa Marta - Selvas del Amazonas y Vichada. 
                 td Conservación y regulación del agua - protección de la fauna - recreación sostenible. 
-                td.text-center 14,3
-              tr
-                td.text-center Otros
+                td.text-center.txt-t-c 14,3
+              tr.tabla-bg-1
+                td.text-center.txt-t-c Otros
                 td Cuerpos de agua y coberturas urbanas y suburbanas. 
                 td
-                td.text-center 2,4
+                td.text-center.txt-t-c 2,4
     .row.justify-content-center.align-items-center
       .col-lg-10
         .cajon.color-acento-contenido.bg-4-claro.p-4.mb-4
@@ -401,7 +406,7 @@
               figure
                 img(src='@/assets/curso/temas/19.svg', alt='Texto que describa la imagen' style='width: 93px;').m-auto
             .col-lg-10
-              .h5 Atención!
+              .h5 ¡Atención!
               p Con base en esta información es posible determinar los usos de los suelos a escala predial, por lo que es importante consultar siempre el POT para conocer los usos permitidos según la región donde se ubique la zona de estudio.
     Separador
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -437,8 +442,10 @@
           figure
             img(src='@/assets/curso/temas/22.svg', alt='Texto que describa la imagen' style='width: 93px;').m-auto
         .col-lg-7
-          .h5 Atención!
-          p Con base en esta información es posible determinar los usos de los suelos a escala predial, por lo que es importante consultar siempre el POT para conocer los usos permitidos según la región donde se ubique la zona de estudio.
+          p.mb-0 Si bien estas variables son generales y algunas de ellas aplican a una escala municipal o regional, es posible analizarlas también en una escala predial.
+            br
+            br
+            |Su análisis a escala predial aportará información sobre cómo se encuentra la unidad productiva en cada uno de los ámbitos antes descritos. 
     .titulo-planta.d-flex.align-items-end.mb-3
       .titulo-planta__texto.me-3
         h3.mb-2 Variables sociales
@@ -505,7 +512,7 @@
     .titulo-planta.d-flex.align-items-end.mb-3
       .titulo-planta__texto.me-3
         h3.mb-2 Variables biofísicas
-        hr.m-0  
+        hr.m-0
       .titulo-planta__icon: img(src='@/assets/curso/temas/21.svg', alt='Texto que describa la imagen' style='width: 36px')
     p.mb-5 Otro de los factores que regula el uso del suelo es el de las condiciones biofísicas de la zona. El estudio de ciertas características locales de relieve, precipitación, humedad relativa y temperatura, entre otras, es necesario para evitar conflictos por el uso del suelo.
     .row.justify-content-center
@@ -637,23 +644,6 @@ export default {
     height: 120px
     z-index: 1
     margin: 0 -3rem
-.tabla-editada1
-  table
-    width: auto
-    white-space:
-  thead
-    background-color: #a75532
-    color: #fff
-  tbody
-    tr:nth-child(odd)
-      background-color: #fff5ec
-  td:nth-child(1)
-    white-space: nowrap
-    width: 4%
-    color: #a75532
-    font-weight: 800
-  td:nth-child(2)
-    width: 30%
 
 .bg-2-claro
   background-color: #fcdda2 !important
@@ -663,8 +653,13 @@ export default {
   background-color: #f7e8e0
 .bg-infografic
   background-image: url('../assets/curso/temas/bg-infografic.svg')
+  background-repeat: no-repeat
+  background-size: cover
+  background-position: top
   margin: 0 -3rem
   padding: 0 3rem
+.margin-b-negative
+  margin-bottom: -8rem
 .bg-tj-1
   background-color: #d78b65
 .bg-tj-2
@@ -693,4 +688,7 @@ export default {
     left: 0 !important
     right: auto
     transform: translate(-5px, -50%) rotate(45deg) !important
+.texto-cafe
+  h1,h2,h3,h4,h5,h6
+    color: #ab5b38 !important
 </style>

@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1327" height="1055" viewBox="0 0 1327 1055">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1327" height="1009" viewBox="0 0 1327 1009">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#fff"/>
@@ -7,9 +7,9 @@
     <linearGradient id="linear-gradient-2" y1="1" y2="0" xlink:href="#linear-gradient"/>
   </defs>
   <g id="Grupo_143273" data-name="Grupo 143273" transform="translate(-136.285 -4660)">
-    <g id="Grupo_143272" data-name="Grupo 143272">
-      <rect id="Rectángulo_46768" data-name="Rectángulo 46768" width="1327" height="450" transform="translate(1463.285 5110) rotate(180)" fill="url(#linear-gradient)"/>
-      <rect id="Rectángulo_46784" data-name="Rectángulo 46784" width="1327" height="233" transform="translate(1463.285 5715) rotate(180)" fill="url(#linear-gradient-2)"/>
+    <g id="Grupo_143272" data-name="Grupo 143272" transform="translate(136.285 4660)">
+      <rect id="Rectángulo_46768" data-name="Rectángulo 46768" width="1327" height="450" transform="translate(1327 450) rotate(180)" fill="url(#linear-gradient)"/>
+      <rect id="Rectángulo_46784" data-name="Rectángulo 46784" width="1327" height="233" transform="translate(1327 1009) rotate(180)" fill="url(#linear-gradient-2)"/>
     </g>
   </g>
 </svg>

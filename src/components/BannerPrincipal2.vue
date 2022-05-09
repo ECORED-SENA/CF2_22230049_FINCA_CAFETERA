@@ -195,4 +195,6 @@ export default {
   .fondo-contenido2
     background-repeat: no-repeat
     background-size: cover
+.banner-principal .tarjeta
+  background-size: 100% 100%
 </style>

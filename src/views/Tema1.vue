@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Uso del suelos
+      h1 Usos del suelos
     .banner-1.p-5.mb-5
       .row.justify-content-end
         .col-lg-8
@@ -232,19 +232,19 @@
       .col-lg-4: img(src='@/assets/curso/temas/11.jpg', alt='Texto que describa la imagen')
       .col-lg-8
         TabsA.color-primario.mb-5
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="1. Normatividad")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="1. Normatividad")
             h4 Normatividad
             p Armonizar y actualizar la normatividad relacionada con el ordenamiento territorial. 
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="2. Ordenamiento del territorio")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="2. Ordenamiento del territorio")
             h4 Ordenamiento del territorio
             p El establecimiento de los mecanismos que permitan al municipio, en ejercicio de su autonomía, promover el ordenamiento de su territorio.
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="3. Función social de la propiedad")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="3. Función social de la propiedad")
             h4 Función social de la propiedad
             p Garantizar que la utilización del suelo por parte de sus propietarios se ajuste a la función social de la propiedad. 
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="4. Estado y ciudadanía")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="4. Estado y ciudadanía")
             h4 Estado y ciudadanía
             p Promover la respuesta del Estado en el ordenamiento del territorio para lograr el mejoramiento de la calidad de vida de sus habitantes.
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="5. Integralidad")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="5. Integralidad")
             h4 Integralidad
             p Facilitar la ejecución de actuaciones urbanas integrales.
     p.mb-5 Sobre el Plan de Ordenamiento Territorial se deben tener en cuenta otros aspectos de suma importancia; pues su conocimiento y aplicación favorecen, ostensiblemente, la reducción de conflictos alrededor del uso del suelo y la pertinencia de tales usos, a saber:
@@ -318,8 +318,7 @@
               img.rounded-2(src='@/assets/curso/temas/16.jpg', alt='Texto que describa la imagen')
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/sJ25zmwBIE4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .titulo-cafe.mb-5
       h3.mb-0.text-center.color-secundario.font-weight-bold.me-3
         |Categorías de los usos del suelo 
@@ -329,17 +328,17 @@
     .row.justify-content-center
       .col-lg-8
         TabsA.color-primario.mb-5
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="1. Uso principal ")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="1. Uso principal ")
             h4 Uso principal
             p Uso recomendado para esa unidad productiva, de acuerdo con parámetros técnicos, ambientales y socioeconómicos, entre otros. 
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="2. Usos compatibles ")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="2. Usos compatibles ")
             h4 Usos compatibles
             p Se relaciona con los usos que se pueden dar a la unidad productiva sin poner en riesgo la integridad del suelo. 
 
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="3. Usos condicionados ")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="3. Usos condicionados ")
             h4 Usos condicionados
             p Requieren de un análisis más profundo de sus posibles implicaciones para el entorno y los ecosistemas presentes. Se requieren permisos especiales para desarrollar estas actividades. 
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="4. Usos prohibidos ")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="4. Usos prohibidos ")
             h4 Usos prohibidos
             p Usos que definitivamente no se pueden dar a esa unidad de suelo, pues pueden poner en riesgo la integridad del ecosistema y exponerlo a daños irreversibles. 
       .col-lg-4: img(src='@/assets/curso/temas/18.jpg', alt='Texto que describa la imagen')
@@ -455,17 +454,17 @@
     .row.justify-content-center
       .col-lg-8
         TabsA.color-primario.mb-5
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="Tenencia de la tierra")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="Tenencia de la tierra")
             h4 Tenencia de la tierra
             p La falta de titularidad sobre la propiedad de los predios dificulta la inversión, pues buena parte del crédito formal exige este requisito para garantizar su acceso. En los predios donde no existe claridad sobre la tenencia de la tierra, no es posible establecer proyectos a mediano y largo plazo, ya que esta situación genera incertidumbre.
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="Inseguridad – violencia")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="Inseguridad – violencia")
             h4 Inseguridad – violencia
             p Este tipo de situaciones limitan fuertemente la inversión y pueden provocar fenómenos de desplazamiento masivo y pérdida de arraigo. 
 
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="Migración ")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="Migración ")
             h4 Migración
             p  La migración de los pobladores de las zonas rurales a los centros urbanos se ha constituido en una problemática creciente que tiene impactos negativos en la sostenibilidad de las actividades agropecuarias. 
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="Asociatividad ")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="Asociatividad ")
             h4 Asociatividad
             p Es importante identificar la existencia de organizaciones comunitarias y establecer su grado de incidencia en la realidad de la región en temas políticos o económicos.
       .col-lg-4: img(src='@/assets/curso/temas/23.jpg', alt='Texto que describa la imagen')
@@ -479,14 +478,14 @@
       .col-lg-4: img(src='@/assets/curso/temas/24.jpg', alt='Texto que describa la imagen')
       .col-lg-8
         TabsA2.TabsA2.color-primario.mb-5
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="Nivel de ingresos")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="Nivel de ingresos")
             h4 Nivel de ingresos
             p Es importante identificar el nivel de ingresos de las familias de la región, ya que este es uno de los principales factores que inciden en los conflictos por uso del suelo. En las regiones agrícolas, a menudo, los bajos ingresos de la población generan fenómenos migratorios y el cambio de la vocación de los terrenos por explotaciones que resultan más eficientes en términos económicos.
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="Actividades productivas")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="Actividades productivas")
             h4 Actividades productivas
             p Es importante identificar las actividades productivas que generan ingresos en la región, su grado de rentabilidad y su importancia dentro de la dinámica municipal y regional; esto para determinar la viabilidad de dichas explotaciones. 
 
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="Acceso a mercados y dinámica de precios")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="Acceso a mercados y dinámica de precios")
             h4 Acceso a mercados y dinámica de precios
             p Es importante conocer las dinámicas del mercado en la región, identificar los canales de comercialización y los grados de asociatividad existentes en relación con el acceso a clientes y proveedores. Asimismo, es clave saber la dinámica de los precios en términos del flujo de la oferta y la demanda. 
     .titulo-planta.d-flex.align-items-end.mb-3
@@ -498,14 +497,14 @@
     .row.justify-content-center
       .col-lg-8
         TabsA.color-primario.mb-5
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="Usos permitidos, compatibles y prohibidos")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="Usos permitidos, compatibles y prohibidos")
             h4 Usos permitidos, compatibles y prohibidos
             p Es clave conocer el ordenamiento territorial a fin de identificar los usos permitidos en el área de trabajo. El desarrollo de prácticas que vayan en contra de los usos permitidos o compatibles puede acarrear sanciones de todo tipo. 
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="Ecosistemas")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="Ecosistemas")
             h4 Ecosistemas
             p Se debe contar con las herramientas suficientes y los conceptos necesarios para identificar los ecosistemas presentes en el territorio para evitar posibles afectaciones.
 
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="Servicios ecosistémicos")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="Servicios ecosistémicos")
             h4 Servicios ecosistémicos
             p  Es importante desarrollar un diagnóstico que recoja la cantidad de servicios ecosistémicos que se pueden encontrar en la unidad productiva. 
       .col-lg-4: img(src='@/assets/curso/temas/25.jpg', alt='Texto que describa la imagen')
@@ -519,17 +518,17 @@
       .col-lg-4: img(src='@/assets/curso/temas/26.jpg', alt='Texto que describa la imagen')
       .col-lg-8
         TabsA2.TabsA2.color-primario.mb-5
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="Tipo de suelos")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="Tipo de suelos")
             h4 Tipo de suelos
             p Identificar las características físicas y químicas de los suelos de la zona de trabajo es fundamental para saber qué tipo de procesos se pueden llevar a cabo en el predio. 
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="Características agroclimáticas")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="Características agroclimáticas")
             h4 Características agroclimáticas
             p La identificación de las características agroecológicas de la zona es necesaria para saber de qué manera se puede obtener el mejor provecho a la unidad productiva y qué medidas de mitigación se pueden llevar a cabo en las épocas de lluvias o de sequía. 
 
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="Topografía y relieve")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="Topografía y relieve")
             h4 Topografía y relieve
             p  Las zonas escarpadas, con fuertes inclinaciones y ubicadas en zonas altas no son aptas para el desarrollo de procesos productivos, por lo que el estudio de la topografía y el relieve del territorio permitirá identificar las verdaderas aptitudes del terreno, con lo cual se puede evitar la aparición de conflictos de uso. 
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="Hidrografía")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="Hidrografía")
             h4 Hidrografía
             p Uno de los elementos más importantes que existe en las áreas rurales es el agua y su presencia está ligada a la conservación de los bosques y zonas de recarga hídrica. Por lo tanto, la identificación de estos puntos estratégicos dentro del predio es necesaria para evitar la realización de prácticas que puedan afectar su calidad y disponibilidad.
     .titulo-planta.d-flex.align-items-end.mb-3
@@ -540,10 +539,10 @@
     .row.justify-content-center
       .col-lg-8
         TabsA.color-primario.mb-5
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="Sistema de creencias")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="Sistema de creencias")
             h4 Sistema de creencias
             p En lo relacionado con este aspecto, es común que comunidades negras, raizales e indígenas posean una relación con el suelo muy distinta a la comúnmente encontrada en otras regiones y comunidades, por lo que este elemento se debe tener siempre presente. 
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="Arraigo cultural")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="Arraigo cultural")
             h4 Arraigo cultural
             p El respeto por la tierra y la valoración de todo lo que proviene de ella ha generado impactos muy positivos en estas comunidades e incluso ha trascendido a otras culturas que empiezan a apropiar algunas de estas costumbres.
 

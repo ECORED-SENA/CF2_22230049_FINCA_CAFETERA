@@ -48,7 +48,7 @@
                 td Grado de afectación que puede producir la acción, va entre 1 y 16 puntos. 
               tr
                 td Extensión
-                td Área de influencia teórica del impacto. La escala para determinar la extensión tiene los siguientes valores:
+                td Área de influencia teórica del impacto. La escala para determinar la extensión tiene los siguientes valores.
                   ul.lista-ul--color.mt-3
                     li
                       i.fas.fa-circle.fa-xs(style=' color: #a75532')
@@ -64,7 +64,7 @@
                       | Total: 8.
               tr
                 td Duración
-                td Tiempo que se cree permanecerá el efecto:
+                td Tiempo que se cree permanecerá el efecto.
                   ul.lista-ul--color.mt-3
                     li
                       i.fas.fa-circle.fa-xs(style=' color: #a75532')
@@ -116,7 +116,7 @@
                       | Acumulativo: 4.
               tr
                 td Posibilidad de ocurrencia
-                td Se refiere a qué tan probable es que el evento se presente:
+                td Se refiere a qué tan probable es que el evento se presente.
                   ul.lista-ul--color.mt-3
                     li
                       i.fas.fa-circle.fa-xs(style=' color: #a75532')
@@ -129,7 +129,7 @@
                       | Cierta: 8.
               tr
                 td Importancia total del impacto
-                td Esta puede tomar valores entre 10 y 92. El valor de los impactos se establece con la siguiente ecuación:
+                td Esta puede tomar valores entre 10 y 92. El valor de los impactos se establece con la siguiente ecuación.
 
                   br
                   br
@@ -223,7 +223,7 @@
     p.text-center.fw-bold Se recomienda visualizar con atención el recurso que se muestra a continuación y afianzar el saber en lo relacionado <br>con las alternativas de solución y los análisis de riesgos, en el manejo de problemáticas ambientales:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/uraM3-MZbS0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .seccion-amarilla2.p-5
       .row.justify-content-center
         .col-lg-10
@@ -324,7 +324,7 @@
     p.text-center.fw-bold Es necesario afianzar su saber en lo referente a las herramientas de planeación; para ello se debe visualizar el recurso que se muestra a continuación y comprender, más y mejor, las principales fuentes de la información que se pueden encontrar en el ámbito predial.
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/7TBpWJeF7L8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
     .titulo-cafe.mb-5
       h3.mb-0.text-center.color-secundario.font-weight-bold.me-4
         |Metodologías empleadas

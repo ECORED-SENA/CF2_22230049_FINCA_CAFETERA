@@ -21,7 +21,7 @@
             p Se invita a prestar atención a los aspectos y elementos clave de un diagnóstico ambiental y productivo, que explican y detallan en siguiente recurso:
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/gbdSlJLmhwI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Leyenda del video
     Separador
     #t_2_1.titulo-segundo.color-acento-contenido(data-aos='fade-right')
@@ -191,21 +191,21 @@
       .col-lg-4: img(src='@/assets/curso/temas/47.jpg', alt='Texto que describa la imagen')
       .col-lg-8
         TabsA.color-primario.mb-5
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="1. Lenguaje")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="1. Lenguaje")
             h4 Lenguaje
             p Se debe emplear un lenguaje sencillo pero con elementos técnicos que faciliten la comprensión de las ideas principales.
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="2. Extensión")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="2. Extensión")
             h4 Extensión
             p No es recomendable generar documentos demasiado extensos que puedan resultar densos para el lector. Se debe procurar ser muy puntual en la información que se presente.
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="3. Información gráfica")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="3. Información gráfica")
             h4 Información gráfica
             p Ha de incluirse información gráfica como tablas, cuadros, figuras, fotografías o esquemas para la presentación de la información.
 
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="4. Información verificable")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="4. Información verificable")
             h4 Información verificable
             p Cada una de las afirmaciones que se hagan dentro del informe deben ser verificables, bien sea con información recopilada en el diagnóstico o con fuentes secundarias.
 
-          .tarjeta.rounded-0.bg-2-claro2.p-4(titulo="5. Ortografía y gramática")
+          .tarjeta.rounded-0.bg-2-claro2.p-4.h-100(titulo="5. Ortografía y gramática")
             h4 Ortografía y gramática
             p Se debe cuidar la ortografía y la gramática en la elaboración del informe, por respeto al lector.  
     p.mb-3 En lo relacionado con la estructura del documento de informe de diagnóstico ambiental, existen diferentes alternativas. En el siguiente recurso, se muestra la metodología más apropiada para establecer el esquema estructural de un informe ambiental.
@@ -494,7 +494,7 @@
                 td  Disminución del potencial productivo del suelo.
                 td  Plan de nutrición de cultivo
               tr
-                td Conraminación de fuentes de agua. 
+                td Contaminación de fuentes de agua. 
                 td N° de eventos de capacitación sobre uso seguro de agroquímicos realizados durante el año.
 
               tr

@@ -5,7 +5,7 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Usos del suelos
+      h1 Usos del suelo
     .banner-1.p-5.mb-5
       .row.justify-content-end
         .col-lg-8

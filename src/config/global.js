@@ -181,7 +181,7 @@ export default {
       referencia:
         'Fundación para la Educación Superior y el Desarrollo – Fedesarrollo. (2019). Uso potencial y efectivo de la tierra agrícola en Colombia: resultados del censo nacional agropecuario. ',
       link:
-        'https://www.repository.fedesarrollo.org.co/bitstream/handle/11445/4079/Repor_Septiembre_2019_Delgado.pdf?sequence=1&isAllowed=y',
+        'https://www.repository.fedesarrollo.org.co/bitstream/handle/11445/4079/Repor_Septiembre_2019_Delgado_05_05_2022.pdf?sequence=4&isAllowed=y',
     },
     {
       referencia:

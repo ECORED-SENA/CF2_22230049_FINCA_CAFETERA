@@ -4,7 +4,7 @@
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
-        span 1
+        span 2
       h1 Diagnóstico ambiental y productivo
     .franja_content.mb-5
       .franja(style='bottom: 35% ; height: 120px ; background: #fcdda2 !important ' ).ms-lg-5.ms-0
@@ -296,8 +296,8 @@
                 p Las claves para la interpretación de los resultados, serán acordes con las metodologías más empleadas en el diagnóstico ambiental predial.
     p.text-center.fw-bold En la siguiente tabla se puede identificar y analizar las claves para la interpretación de los resultados de un diagnóstico ambiental.
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 4.
-      span Metodologías de interpretación de diagnósticos ambientales
+      h5 Tabla 5.
+      span Esquema evaluativo de acciones de mitigación, control o prevención de impactos ambientales, en cultivos de café.
     .row.justify-content-center.align-items-center
       .col-lg-10
         .tabla-editada1.mb-5

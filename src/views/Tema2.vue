@@ -296,8 +296,8 @@
                 p Las claves para la interpretación de los resultados, serán acordes con las metodologías más empleadas en el diagnóstico ambiental predial.
     p.text-center.fw-bold En la siguiente tabla se puede identificar y analizar las claves para la interpretación de los resultados de un diagnóstico ambiental.
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 5.
-      span Esquema evaluativo de acciones de mitigación, control o prevención de impactos ambientales, en cultivos de café.
+      h5  Tabla 4.
+      span Metodologías de interpretación de diagnósticos ambientales.
     .row.justify-content-center.align-items-center
       .col-lg-10
         .tabla-editada1.mb-5
@@ -438,8 +438,8 @@
       |Las actividades de seguimiento, evaluación y monitoreo, han sido diseñadas para la verificación del cumplimiento y la efectividad de las medidas de manejo ambiental, adoptadas en cada etapa del sistema productivo; para rastrear el comportamiento del entorno físico, biológico y social del proyecto, a fin de detectar posibles impactos residuales, acumulativos o esperados.
     p.text-center.fw-bold Para la evaluación de la efectividad de las acciones de mitigación o de manejo ambiental se proponen los siguientes elementos:
     .titulo-sexto.color-acento-contenido
-      h5 Tabla 4.
-      span Metodologías de interpretación de diagnósticos ambientales
+      h5 Tabla 5.
+      span Esquema evaluativo de acciones de mitigación, control o prevención de impactos ambientales, en cultivos de café. 
     .row.justify-content-center.align-items-center
       .col-lg-10
         .tabla-editada2.mb-5
